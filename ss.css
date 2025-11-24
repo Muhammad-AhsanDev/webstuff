@@ -100,6 +100,7 @@ img{
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100% 390px;
+  border: 3px solid black;
 }
 /* From Uiverse.io by seoulchik */ 
 .card {
@@ -871,4 +872,90 @@ justify-content: space-evenly;
 
 .uni-glitch {
   animation: uni-glitch 0.3s infinite;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #00000080;
+}
+
+
+
+
+.scard {
+  height: fit-content;
+  width: fit-content;
+  display:inline;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0);
+  padding: 20px 25px;
+  border-radius: 14px;
+}
+
+.sbtn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sicon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  z-index: 2;
+}
+
+.sbg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  z-index: 1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all 0.3s;
+  font-size: 0px;
+}
+
+.sc_github .sbg {
+  background: #181818;
+}
+.sc_linkedin .sbg {
+  background: #0077b5;
+}
+.sc_whatsapp .sbg {
+  background: #075e54;
+}
+.sc_discord .sbg {
+  background: #7289da;
+}
+
+.sbtn:hover .sbg {
+  transform: scale(1.5);
+  font-size: 20px;
+  color: white;
+}
+
+.sbtn:hover .sicon {
+  border: 1px solid rgba(216, 216, 216, 0.466);
+  background-color: rgba(209, 209, 209, 0.466);
+  backdrop-filter: blur(4px);
 }
