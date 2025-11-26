@@ -10,7 +10,7 @@
 <h1>Hello JavaScript</h1>
 
 <!-- External Linking -->
-<script src="/wow.js"></script>
+
 
 <!-- Internal JS -->
 <script>
@@ -19,11 +19,19 @@
     
     let b = Number(prompt("Enter you age")); // convert input to number
 
-    if (b<18) {
+    console.log(b);
+
+    if (b<18 ||b>100) {
         alert("Not eligible");
-    } else {
-        alert("eligible");
+    } 
+    else if(b>=18 && b<=100){
+         alert("eligible")
     }
+    else {
+        alert("erorr");
+    }
+
+
 </script>
 
 </body>
