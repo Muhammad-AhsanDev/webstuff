@@ -1,0 +1,10 @@
+button{
+    background-color: rgb(64, 226, 255);
+}
+button:hover{
+    background-color:rgb(5, 201, 208);
+}
+img{
+    width: 100px;
+    height: 100px;
+}

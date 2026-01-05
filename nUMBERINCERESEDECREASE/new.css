@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#counter{
+    font-size: 10em;
+    text-align: center;
+}
+#btncontainer{
+display: flex;
+margin-left: 35%;
+gap: 15px;
+}
+#btn1{
+color: white;
+background-color: rgb(16, 192, 192);
+font-size: 2em;
+width:fit-content;
+height: fit-content;
+border-radius: 8px;
+}
+#btn2{color: white;
+background-color: rgb(16, 192, 192);
+font-size: 2em;
+border-radius: 8px;
+width:fit-content;
+height: fit-content;
+
+}
+#btn3{color: white;
+background-color: rgb(16, 192, 192);
+font-size: 2em;
+border-radius: 8px;
+width:fit-content;
+height: fit-content;
+}
+
+#btn1:hover{
+    background-color: green;
+}
+#btn2:hover{
+    background-color: green;
+}
+#btn3:hover{
+    background-color: green;
+}
